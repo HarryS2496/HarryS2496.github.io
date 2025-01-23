@@ -51,12 +51,62 @@ nav .logo {
 }
 
 main {
-  margin: 70px 20px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+  gap: 0;
+  width: fit-content;
 }
 
 main a {
   color: rgb(175, 173, 255);
   text-decoration: none;
+}
+
+.container {
+  flex: 1 1 auto;
+  max-width: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex: 1 1 100%; /* Containers stack vertically on small screens */
+  }
+  main {
+    gap: 1rem; /* Reduce gap on smaller screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    flex: 1 1 calc(30% - 2rem); /* Reduce container width for large screens */
+  }
+}
+
+h1 {
+  margin: 70px 0 10px 0;
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.5;
+}
+li {
+  line-height: 1.2;
+}
+
+#profile {
+  width: 90%;
+  max-width: 500px;
+  border: 4px white solid;
+  border-radius: 2px;
 }
 
 footer {
