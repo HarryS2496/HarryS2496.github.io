@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(34, 34, 34);
+  background-color: #222222;
   color: white;
   min-height: 100vh;
   margin: 0;
@@ -12,7 +12,7 @@ nav {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
-  background-color: #220080; 
+  background-color: #4a06b6; 
   color: white; 
   padding: 1rem; 
   position: fixed;
@@ -27,11 +27,11 @@ nav a {
   color: white; 
   text-decoration: none; 
   padding: 0.5rem 1rem; 
-  transition: 0.3s; 
+  transition: 0.2s; 
 }
 
 nav a:hover {
-  background-color: #575757; 
+  background-color: #222222; 
   border-radius: 5px; 
 }
 
@@ -64,7 +64,7 @@ main {
 }
 
 main a {
-  color: rgb(175, 173, 255);
+  color: rgb(255, 229, 173);
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ main a {
 }
 
 .project {
-  background-color: #220080;
+  background-color: #4a06b6;
   margin: 10px;
   border: 4px white solid;
   text-align: center;
