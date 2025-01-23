@@ -85,6 +85,7 @@ main a {
 .container .project {
   flex: 1 1 100%;
   gap: 1rem;
+  align-items: center;
 }
 
 h1 {
@@ -98,7 +99,7 @@ h3 {
 p {
   max-width: 600px;
   line-height: 1.5;
-  margin: 0 auto;
+  position: relative;
 }
 li {
   line-height: 1.2;
@@ -113,11 +114,10 @@ li {
 }
 
 footer {
-  position: absolute;
-  margin-top: auto;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
+  margin-top: auto; 
+  padding: 10px; 
+  color: white;
+  position: relative; 
 }
 
 @media (max-width: 768px) {
@@ -127,6 +127,13 @@ footer {
   main {
     gap: 1rem; /* Reduce gap on smaller screens */
   }
+  h1 {
+    text-align: left;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1084px) {
   h1 {
     text-align: left;
     margin-left: 1rem;
