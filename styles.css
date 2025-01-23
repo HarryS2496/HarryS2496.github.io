@@ -58,7 +58,7 @@ main {
   flex: 1;
   flex-wrap: wrap; 
   justify-content: center; 
-  align-items: start;
+  align-items: center;
   gap: 0;
   width: fit-content;
 }
@@ -122,10 +122,10 @@ footer {
 
 @media (max-width: 768px) {
   .container {
-    flex: 1 1 100%; /* Containers stack vertically on small screens */
+    flex: 1 1 100%; 
   }
   main {
-    gap: 1rem; /* Reduce gap on smaller screens */
+    gap: 1rem; 
   }
   h1 {
     text-align: left;
