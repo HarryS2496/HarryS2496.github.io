@@ -72,6 +72,18 @@ main a {
   box-sizing: border-box;
 }
 
+.project {
+  background-color: #220080;
+  margin: 10px;
+  border: 4px white solid;
+  text-align: center;
+}
+
+.container .project {
+  flex: 1 1 100%;
+  gap: 1rem;
+}
+
 @media (max-width: 768px) {
   .container {
     flex: 1 1 100%; /* Containers stack vertically on small screens */
