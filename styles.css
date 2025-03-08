@@ -156,5 +156,6 @@ footer {
 @media (max-width: 1084px) {
   h1 {
     margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
